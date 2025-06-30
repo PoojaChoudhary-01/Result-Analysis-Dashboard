@@ -40,6 +40,19 @@ This Power BI dashboard analyzes academic performance across five subjects for a
 
 - 🎛️ **Slicers**:
   - Filter by Grade, Subject, Student Name
+ 
+  ## 📸 Dashboard Preview
+  ![Screenshot 2025-06-30 075835](https://github.com/user-attachments/assets/9b672b82-ec07-4181-9f60-7730a0e978f9)
+
+
+![Dashboard Preview](images/dashboard_preview.png)
+
+---
+
+## 👤 Author
+**Pooja Choudhary**  
+Student | Data Analyst | Power BI Enthusiast  
+<!-- Add your LinkedIn/GitHub links if you'd like -->
 
 ---
 
