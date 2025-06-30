@@ -1,0 +1,72 @@
+📘 STUDENT RESULT ANALYSIS DASHBOARD - LAB NOTEBOOK
+
+------------------------------------------------------------
+👩‍💻 STUDENT NAME: POOJA CHOUDHARY
+📅 PROJECT TITLE: Student Result Analysis using Power BI
+📁 DATASET USED: Result.xlsx
+📊 TOOL USED: Microsoft Power BI
+------------------------------------------------------------
+
+🎯 OBJECTIVE:
+To analyze student performance across five subjects using Power BI by creating interactive visuals like cards, charts, and tables to identify top performers, failing students, grade distribution, and subject-wise performance.
+
+------------------------------------------------------------
+
+🔄 DATA TRANSFORMATION (POWER QUERY):
+
+1. 📛 Renamed Columns:
+   - Changed subject names to: Math Score, Science Score, History Score, Computer Science Score, English Score.
+
+2. 🔢 Data Type Conversion:
+   - Score columns → Whole Number
+   - Name, Grade, Result → Text
+   - Percentage → Decimal
+
+3. ➕ Added Columns:
+   a. Total Marks = Sum of all 5 subject scores
+   b. Percentage = (Total Marks / 500) * 100
+   c. Grade: Based on percentage
+   d. Result: "Pass" if all subjects ≥ 35, else "Fail"
+   e. FailedSubject: Count of subjects where score < 35
+
+4. 🔄 Unpivoted Columns:
+   - Unpivoted subject columns to create "Attribute" and "Value" for subject-wise analysis
+
+5. 📉 Sorted & Cleaned:
+   - Sorted percentage in descending order for top students
+   - Removed unnecessary columns
+
+------------------------------------------------------------
+
+📊 VISUALS USED IN THE DASHBOARD:
+
+1. 🟪 Card: Total Number of Students
+2. 🟩 Card: Average Class Percentage
+3. 🔵 Donut Chart: Pass vs Fail Distribution
+4. 🟠 Donut Chart: Grade-wise Student Distribution
+5. 🟨 Table: Top 5 Performing Students
+6. 🔴 Table: Students Failing Most Subjects
+7. 📈 Line Chart: Subject Performance by Grade
+8. 📊 Bar Chart: Average Score by Subject
+9. 📉 Line Chart: Percentage Distribution
+10. 🎛️ Slicers: Student Name, Grade, Subject
+
+------------------------------------------------------------
+
+🧠 KEY INSIGHTS:
+
+- Top 5 performers and their grades identified
+- 13 students failed (based on subject-level score < 35)
+- Subject with highest average: English
+- Subject with lowest average: History
+- Grade distribution shows majority scored B+ and above
+- Pass percentage is visually represented via donut chart
+
+------------------------------------------------------------
+
+✅ CONCLUSION:
+This Power BI dashboard helped visualize student performance effectively. It provided deep insights into both class-level and individual-level data and can be extended for semester-wise or year-wise analysis.
+
+------------------------------------------------------------
+
+💡 CREATED BY: Pooja Choudhary
