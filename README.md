@@ -47,7 +47,8 @@ This Power BI dashboard analyzes academic performance across five subjects for a
 - Power BI Visualizations (cards, charts, tables, slicers)
  
   ## 📸 Dashboard Preview
-  ![Screenshot 2025-06-30 080645](https://github.com/user-attachments/assets/401f2435-e65f-4a2a-b3cb-930fe4c72522)
+  ![Screenshot 2025-06-30 081227](https://github.com/user-attachments/assets/5e5d289a-3925-40a6-8a8b-d9878b0fb4b0)
+
 
 
 ## 👤 Author
